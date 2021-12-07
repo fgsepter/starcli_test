@@ -1,2 +1,3 @@
 language: python
-script: true
+script: pip install -r requirements_dev.txt
+script: python -m starcli --help
